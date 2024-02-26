@@ -5,26 +5,27 @@ import LiIcon from './LiIcon';
 
 const workDetails = [
     {
-        position: "Software Engineer",
-        company: "Google",
-        companyLink: 'www.google.com',
-        time: "2022-Present",
-        address: "Mountain View, CA",
-        work: "Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+        position: "Software Developer",
+        company: "Redwood Platform, Oracle",
+        companyLink: 'https://redwood.oracle.com/',
+        time: "Oct 2023 - Present",
+        address: "Bengaluru, IN",
+        work: "Developed user interface for the oj-sp-smart-search and added caching support to show suggestions based on recent searches. Using OJET, Preact with VDOM architecture."
     },
     {
-        position: "Software Engineer",
-        company: "Google",
-        time: "2022-Present",
-        address: "Mountain View, CA",
-        work: "Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+        position: "Member of Technical Staff",
+        company: "Oracle Content Cloud, Oracle",
+        companyLink: "https://docs.oracle.com/en/cloud/index.html",
+        time: "Jun 2022 - Oct 2023",
+        address: "Hyderabad, IN",
+        work: " Developed a B2B content marketing platform to help the business deliver personalised and engaging content and analyze their engagement also developed features for Oracle Content Cloud, including Video Transcription (viewing and editing) and importing/exporting site packages from the Content Cloud."
     },
     {
-        position: "Software Engineer",
-        company: "Google",
-        time: "2022-Present",
-        address: "Mountain View, CA",
-        work: "Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+        position: "Automation Intern",
+        company: "JP Morgan Chase",
+        time: "Jan 2022 - Jun 2022",
+        address: "Mumbai, IN",
+        work: "The project involved the development of an email summarization solution using extractive summarization and OCR with Python and Alteryx, aimed at aiding analysts in handling large volumes of emails efficiently. This innovation resulted in approximately 140 hours of saved time annually, as per the company's evaluation. Additionally, worked on dashboards and automated report generation system were developed using Alteryx and Tableau for business units"
     }
 ]
 

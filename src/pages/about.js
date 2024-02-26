@@ -76,13 +76,13 @@ const About= () => {
                     <div className='col-span-2 flex flex-col items-end justify-between'>
                         <div className='flex flex-col items-end justify-center'>
                             <span className='inline-block text-7xl font-bold'>
-                                <AnimatedNumbers value={50} />+
+                                <AnimatedNumbers value={10} />
                             </span>
                             <h2 className='text-xl font-medium capitalize text-dark/75'>satisfied clients</h2>
                         </div>
                         <div className='flex flex-col items-end justify-center'>
                             <span className='inline-block text-7xl font-bold'>
-                                <AnimatedNumbers value={40} />+
+                                <AnimatedNumbers value={5} />
                             </span>
                             <h2 className='text-xl font-medium capitalize text-dark/75'>projects completed</h2>
                         </div>

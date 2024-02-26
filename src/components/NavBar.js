@@ -24,18 +24,18 @@ const NavBar = () => {
         <nav>
             <CustomLink href="/" title="Home" className='mr-4'/>
             <CustomLink href="/about" title="About" className='mx-4'/>
-            <CustomLink href="/projects" title="Projects" className='mx-4'/>
-            <CustomLink href="/articles" title="Articles" className='ml-4'/>
+            {/* <CustomLink href="/projects" title="Projects" className='mx-4'/>
+            <CustomLink href="/articles" title="Articles" className='ml-4'/> */}
         </nav>
         <Logo />
         <nav className='flex items-center justify-center flex-wrap'>
-            <motion.a href="/" target='_blank' whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-10 mx-3'>
+            <motion.a href="https://twitter.com/KapdiSabir" target='_blank' whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-10 mx-3'>
                 <TwitterIcon />
             </motion.a>
-            <motion.a href="/" target='_blank' whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-10 mx-3'>
+            <motion.a href="https://github.com/Kanchuking1" target='_blank' whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-10 mx-3'>
                 <GithubIcon />
             </motion.a>
-            <motion.a href="/" target='_blank' whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-10 mx-3'>
+            <motion.a href="https://www.linkedin.com/in/wahib-kapdi-00674316b/" target='_blank' whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-10 mx-3'>
                 <LinkedInIcon />
             </motion.a>
         </nav>
