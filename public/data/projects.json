@@ -1,0 +1,138 @@
+[
+    {
+        "id" : 1,
+        "title" : "Gamer Galaxy",
+        "intro" : "An AR multiplayer gaming platform with all kinds of hypercasual games",
+        "target" : "https://devfolio.co/submissions/gamers-galaxy",
+        "alt" : "GG",
+        "thumbnail" : "/images/projects/GamerGalaxy.png",
+        "tech" : ["Unity 3D", "C#", "Blender"],
+        "topics": ["Augmented Reality", "Game Development", "App Development"]
+    }, {
+        "id" : 2,
+        "title" : "Mobile based XR Exposure Therapy",
+        "intro" : "A mobile application to perform exposure therapy using Cardboard Headset and Smartphones.",
+        "target" : "https://github.com/Kanchuking1/XRExposureTherapy",
+        "alt" : "XR Exposure Therapy",
+        "thumbnail" : "/images/projects/XRExposureTherapy.jpg",
+        "tech" : ["Unity 3D", "C#", "Blender"],
+        "topics": ["Augmented Reality"]
+    }, {
+        "id" : 3,
+        "title" : "Meetme",
+        "intro" : "Meet me is a Puzzle based hypercasual game currently on Google Play Store.",
+        "target" : "https://aapks.com/apk/meetme-vikings-tech/",
+        "alt" : "Meetme",
+        "thumbnail" : "/images/projects/Meetme.jpg",
+        "tech" : ["Unity 3D", "C#", "Blender"],
+        "topics": ["Game Development", "App Development"]
+    }, {
+        "id" : 4,
+        "title" : "Disco Maniac",
+        "intro" : "A hypercasual game about a guy who does not want to stop dancing while giant boxes attack him!",
+        "target" : "https://play.google.com/store/apps/details?id=com.vikings.discomaniac",
+        "alt" : "discomaniac",
+        "thumbnail" : "/images/projects/DiscoManiac.jpg",
+        "tech" : ["Unity 3D", "C#", "Blender"],
+        "topics": ["Game Development", "App Development"]
+    }, {
+        "id" : 5,
+        "title" : "AR Science Lab",
+        "intro" : "SmartAR is a new way of doing labs with inbuilt AR experiments to help students perform experiments.",
+        "target" : "https://devfolio.co/submissions/smartar",
+        "alt" : "smartar",
+        "thumbnail" : "/images/projects/AR Science Lab.png",
+        "tech" : ["Unity 3D", "C#", "Blender"],
+        "topics": ["Augmented Reality", "App Development", "Educational Technology"]
+    }, {
+        "id" : 6,
+        "title" : "Zombie land",
+        "intro" : "A motion shooter game where you move and shoot zombies trying to attack you and defend yourself!",
+        "target" : "https://play.google.com/store/apps/details?id=com.vikings.zombiehunter",
+        "alt" : "Zombie",
+        "thumbnail" : "/images/projects/ZombieHunter.jpg",
+        "tech" : ["Unity 3D", "C#", "Blender"],
+        "topics": ["Game Development", "App Development"]
+    }, {
+        "id" : 7,
+        "title" : "Ball in Hole",
+        "intro" : "Roll the ball into the hole using on screen controls. Uncover exciting levels and challenges!",
+        "target" : "https://play.google.com/store/apps/details?id=com.vikings.ballinhole",
+        "alt" : "HoleBall",
+        "thumbnail" : "/images/projects/HoleBall.jpg",
+        "tech" : ["Unity 3D", "C#", "Blender"],
+        "topics": ["Game Development", "App Development"]
+    }, {
+        "id" : 8,
+        "title" : "Indoor AR Navigation",
+        "intro" : "An indoor AR based Navigation System with an added AR treasure hunt game.",
+        "target" : "https://devfolio.co/submissions/unlock",
+        "alt" : "unlock",
+        "thumbnail" : "/images/projects/Indoor Navigation.png",
+        "tech" : ["Unity 3D", "C#", "Blender"],
+        "topics": ["Augmented Reality", "Game Development", "Navigation"]
+    }, {
+        "id" : 9,
+        "title" : "Covitopia",
+        "intro" : "AR Simulator for the spread of infectious diseases and a predictor for the number of cases.",
+        "target" : "https://github.com/MysteriousAcadia/Covitopia",
+        "alt" : "covitopia",
+        "thumbnail" : "/images/projects/Covitopia.jpeg",
+        "tech" : ["Unity 3D", "C#", "Blender"],
+        "topics": ["Augmented Reality", "Data Science", "Simulations"]
+    }, {
+        "id" : 10,
+        "title" : "Semi Automated Wheel chair",
+        "intro" : "This project is aimed at developing a working model of a semi-autonomous wheelchair.",
+        "target" : "https://github.com/Kanchuking1/Reading-Course-2020",
+        "alt" : "ROSWheelChair",
+        "thumbnail" : "/images/projects/ROSWheelChair.png",
+        "tech" : ["C", "ROS", "Blender"],
+        "topics" : ["Robotics", "IOT"]
+    }, {
+        "id" : 11,
+        "title" : "IOT based Home Security System",
+        "intro" : "In this project we developed working model of a Home Security Systems using an ESP32.",
+        "target" : "https://www.youtube.com/watch?v=ECIDkSOKm0E",
+        "alt" : "IOTHomeSec",
+        "thumbnail" : "/images/projects/HomeSecurity.png",
+        "tech" : ["C", "ROS", "ESP32"],
+        "topics" : ["Embedded Systems", "IOT"]
+    }, {
+        "id" : 12,
+        "title" : "Making 3D Art",
+        "intro" : "Here is the link to my art station account",
+        "target" : "https://wahibkapdi.artstation.com/",
+        "alt" : "ArtStation",
+        "thumbnail" : "/images/projects/ArtStation.jpg",
+        "tech" : ["Blender"],
+        "topics" : []
+    }, {
+        "id" : 14,
+        "title" : "Docker Copilot",
+        "intro" : "An AI assistant Extension to support your workflow in Docker Desktop using GPT 4 Turbo",
+        "target" : "https://devpost.com/software/docker-copilot",
+        "alt" : "Docker Copilot",
+        "thumbnail" : "/images/projects/Docker Copilot.png",
+        "tech" : ["React", "Python", "JS", "Go"],
+        "topics" : ["Web Developement", "Artificial Intelligence", "Natural Language Processing", "Chatbot"]
+    }, {
+        "id" : 15,
+        "title" : "GUI Molecule Editor using RDKit",
+        "intro" : "A way to graphically represent and build Molecules using RDKit for Chemformatics",
+        "target" : "https://github.com/Kanchuking1/GUIMolRDEditor",
+        "alt" : "GUI Molecule Editor",
+        "thumbnail" : "/images/projects/Molecule Editor.png",
+        "tech" : ["Python"],
+        "topics" : ["Data Science", "Data Science", "Chemistry", "Software Development"]
+    }, {
+        "id" : 16,
+        "title" : "Genetic Algorithm trained Racing Car",
+        "intro" : "Research on mutation, crossover and selection algorithms to train a Racing Car",
+        "target" : "https://github.com/Kanchuking1/Self-Driving-Car",
+        "alt" : "Genetic Algorithm trained Racing Car",
+        "thumbnail" : "/images/projects/Race Car Training.png",
+        "tech" : ["JS"],
+        "topics" : ["Artificial Intelligence", "Genetic Algorithm"]
+    }
+]

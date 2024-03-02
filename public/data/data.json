@@ -1,0 +1,206 @@
+{
+    "introduction": {
+        "p1": "I am a Software Engineer with a keen interest in interdisciplinary understanding of electrical and computer science. I my undergraduate in Electrical & Electronics Engineering from BITS Pilani K.K. Birla Goa Campus.",
+        "p2": "My main interest lies in creating new and unique solutions to the modern world problems while researching Human-Computer Interaction and Natural Language."
+    }, 
+
+    "active": [16],
+    "highlights": [16, 8, 14],
+    "games": [4, 2, 7],
+    "ar": [5, 1, 9],
+    "misc": [10, 11, 15],
+    "hobbies": [12, 13],
+
+    "projects": [
+        {
+            "id" : 1,
+            "title" : "Gamer Galaxy",
+            "intro" : "An AR multiplayer gaming platform with all kinds of hypercasual games",
+            "target" : "https://devfolio.co/submissions/gamers-galaxy",
+            "alt" : "GG",
+            "thumbnail" : "./images/GamerGalaxy.png"
+        }, {
+            "id" : 2,
+            "title" : "Mobile based XR Exposure Therapy",
+            "intro" : "A mobile application to perform exposure therapy using Cardboard Headset and Smartphones.",
+            "target" : "https://github.com/Kanchuking1/XRExposureTherapy",
+            "alt" : "XR Exposure Therapy",
+            "thumbnail" : "./images/XRExposureTherapy.jpg"
+        }, {
+            "id" : 3,
+            "title" : "Meetme",
+            "intro" : "Meet me is a Puzzle based hypercasual game currently on Google Play Store.",
+            "target" : "https://aapks.com/apk/meetme-vikings-tech/",
+            "alt" : "Meetme",
+            "thumbnail" : "./images/Meetme.jpg"
+        }, {
+            "id" : 4,
+            "title" : "Disco Maniac",
+            "intro" : "A hypercasual game about a guy who does not want to stop dancing while giant boxes attack him!",
+            "target" : "https://play.google.com/store/apps/details?id=com.vikings.discomaniac",
+            "alt" : "discomaniac",
+            "thumbnail" : "./images/DiscoManiac.jpg"
+        }, {
+            "id" : 5,
+            "title" : "AR Science Lab",
+            "intro" : "SmartAR is a new way of doing labs with inbuilt AR experiments to help students perform experiments.",
+            "target" : "https://devfolio.co/submissions/smartar",
+            "alt" : "smartar",
+            "thumbnail" : "./images/AR Science Lab.png"
+        }, {
+            "id" : 6,
+            "title" : "Zombie land",
+            "intro" : "A motion shooter game where you move and shoot zombies trying to attack you and defend yourself!",
+            "target" : "https://play.google.com/store/apps/details?id=com.vikings.zombiehunter",
+            "alt" : "Zombie",
+            "thumbnail" : "./images/ZombieHunter.jpg"
+        }, {
+            "id" : 7,
+            "title" : "Ball in Hole",
+            "intro" : "Roll the ball into the hole using on screen controls. Uncover exciting levels and challenges!",
+            "target" : "https://play.google.com/store/apps/details?id=com.vikings.ballinhole",
+            "alt" : "HoleBall",
+            "thumbnail" : "./images/HoleBall.jpg"
+        }, {
+            "id" : 8,
+            "title" : "Indoor AR Navigation",
+            "intro" : "An indoor AR based Navigation System with an added AR treasure hunt game.",
+            "target" : "https://devfolio.co/submissions/unlock",
+            "alt" : "unlock",
+            "thumbnail" : "./images/Indoor Navigation.png"
+        }, {
+            "id" : 9,
+            "title" : "Covitopia",
+            "intro" : "AR Simulator for the spread of infectious diseases and a predictor for the number of cases.",
+            "target" : "https://github.com/MysteriousAcadia/Covitopia",
+            "alt" : "covitopia",
+            "thumbnail" : "./images/Covitopia.jpeg"
+        }, {
+            "id" : 10,
+            "title" : "Semi Automated Wheel chair",
+            "intro" : "This project is aimed at developing a working model of a semi-autonomous wheelchair.",
+            "target" : "https://github.com/Kanchuking1/Reading-Course-2020",
+            "alt" : "ROSWheelChair",
+            "thumbnail" : "./images/ROSWheelChair.png"
+        }, {
+            "id" : 11,
+            "title" : "IOT based Home Security System",
+            "intro" : "In this project we developed working model of a Home Security Systems using an ESP32.",
+            "target" : "https://www.youtube.com/watch?v=ECIDkSOKm0E",
+            "alt" : "IOTHomeSec",
+            "thumbnail" : "./images/HomeSecurity.png"
+        }, {
+            "id" : 12,
+            "title" : "Making 3D Art",
+            "intro" : "Here is the link to my art station account",
+            "target" : "https://wahibkapdi.artstation.com/",
+            "alt" : "ArtStation",
+            "thumbnail" : "./images/ArtStation.jpg"
+        }, {
+            "id" : 13,
+            "title" : "Youtube Channel",
+            "intro" : "We teach Game Dev and Blockchain mainly :P",
+            "target" : "https://www.youtube.com/channel/UCfv0kzKwu6L-nlqkoZhbFaA",
+            "alt" : "VikingsDevlogs",
+            "thumbnail" : "./images/Youtube.png"
+        }, {
+            "id" : 14,
+            "title" : "Docker Copilot",
+            "intro" : "An AI assistant Extension to support your workflow in Docker Desktop using GPT 4 Turbo",
+            "target" : "https://devpost.com/software/docker-copilot",
+            "alt" : "Docker Copilot",
+            "thumbnail" : "./images/Docker Copilot.png"
+        }, {
+            "id" : 15,
+            "title" : "GUI Molecule Editor using RDKit",
+            "intro" : "A way to graphically represent and build Molecules using RDKit for Chemformatics",
+            "target" : "https://github.com/Kanchuking1/GUIMolRDEditor",
+            "alt" : "GUI Molecule Editor",
+            "thumbnail" : "./images/Molecule Editor.png"
+        }, {
+            "id" : 16,
+            "title" : "Genetic Algorithm trained Racing Car",
+            "intro" : "Research on mutation, crossover and selection algorithms to train a Racing Car",
+            "target" : "https://github.com/Kanchuking1/Self-Driving-Car",
+            "alt" : "Genetic Algorithm trained Racing Car",
+            "thumbnail" : "./images/Race Car Training.png"
+        }
+    ],
+    "herosocials": [1,3,7,8,9],
+    "socials" : [
+        {
+            "id" : 1,
+            "name" : "youtube",
+            "link" : "https://www.youtube.com/@VikingsDevlogs/featured",
+            "classes" : "fa-brands fa-youtube"
+        },
+        {
+            "id" : 2,
+            "name" : "linkedin",
+            "link" : "https://www.linkedin.com/in/wahib-kapdi-00674316b/",
+            "classes" : "fa-brands fa-linkedin"
+        },
+        {
+            "id" : 3,
+            "name" : "github",
+            "link" : "https://github.com/Kanchuking1",
+            "classes" : "fa-brands fa-github"
+        },
+        {
+            "id" : 4,
+            "name" : "email",
+            "link" : "mailto:wahibkapdi2212@gmail.com",
+            "classes" : "fa-regular fa-envelope"
+        },
+        {
+            "id" : 5,
+            "name" : "twitter",
+            "link" : "https://twitter.com/KapdiSabir",
+            "classes" : "fa-brands fa-twitter"
+        },
+        {
+            "id" : 6,
+            "name" : "instagram",
+            "link" : "https://www.instagram.com/wahibkapdi/",
+            "classes" : "fa-brands fa-instagram"
+        },
+        {
+            "id" : 7,
+            "name" : "play store",
+            "link" : "https://play.google.com/store/apps/dev?id=6457341340960983923",
+            "classes" : "fa-brands fa-google-play"
+        },
+        {
+            "id" : 8,
+            "name" : "devpost",
+            "link" : "https://devpost.com/Kanchuking1",
+            "classes" : "fa-brands fa-dev"
+        },
+        {
+            "id" : 9,
+            "name" : "devfolio",
+            "link" : "https://devfolio.co/@Kanchuking1",
+            "classes" : "fa-solid fa-code"
+        }
+    ],
+    "workex" : [
+        {
+            "id": 1,
+            "role": "Member of Techincal Staff",
+            "time": "July 2022 - Current",
+            "location": "Bengaluru / Hyderabad",
+            "description": ["Ideated and Developed a content marketing platform - Guided Tours. It helps the business deliver personalized and engaging content to their target audience and analyze their engagement. This product saved the company $500,000 per year by replacing outsourced technology PathFactory.","Developed features for Oracle Content Cloud including Video Transcription (viewing and editing) and importing/exporting site packages from the Cotent Cloud.","Mentored an intern for the period of two months and helped her build a Video Annotation system on the Oracle Content Cloud."],
+            "class": "oracle-icon"
+        },
+        {
+            "id": 2,
+            "role": "Innovation & Automation Intern",
+            "time": "Jan 2022 - July 2022",
+            "location": "Mumbai",
+            "description": ["Developed an email parser to generate summary reports about the emails the people from the BU received. This innovation saved roughly 140 hours of work on yearly basis.",
+            "Developed dashboard and automated report generation for business units to expedite the data consumption. This process saved the company another 200 hours an year.",
+            "Researched the automation of analysis of peer banks 10K and 10Q declaration to generate a peer bank performance report."],
+            "class": "jpm-icon"
+        }
+    ]
+}

@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import { useRouter } from 'next/router'
 import Logo from './Logo'
-import { GithubIcon, LinkedInIcon, TwitterIcon } from './Icons'
+import { GithubIcon, LinkedInIcon, TwitterIcon, YoutubeIcon } from './Icons'
 
 import {motion} from "framer-motion";
 
@@ -24,8 +24,8 @@ const NavBar = () => {
         <nav>
             <CustomLink href="/" title="Home" className='mr-4'/>
             <CustomLink href="/about" title="About" className='mx-4'/>
-            {/* <CustomLink href="/projects" title="Projects" className='mx-4'/>
-            <CustomLink href="/articles" title="Articles" className='ml-4'/> */}
+            <CustomLink href="/projects" title="Projects" className='mx-4'/>
+            {/* <CustomLink href="/articles" title="Articles" className='ml-4'/> */}
         </nav>
         <Logo />
         <nav className='flex items-center justify-center flex-wrap'>
@@ -37,6 +37,9 @@ const NavBar = () => {
             </motion.a>
             <motion.a href="https://www.linkedin.com/in/wahib-kapdi-00674316b/" target='_blank' whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-10 mx-3'>
                 <LinkedInIcon />
+            </motion.a>
+            <motion.a href="https://youtube.com/@VikingsDevlogs?si=CfkNOHb49TGnZ6Tc" target='_blank' whileHover={{y: -2}} whileTap={{scale: 0.9}} className='w-10 mx-3'>
+                <YoutubeIcon />
             </motion.a>
         </nav>
     </header>

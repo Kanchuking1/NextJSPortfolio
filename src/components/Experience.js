@@ -23,6 +23,7 @@ const workDetails = [
     {
         position: "Automation Intern",
         company: "JP Morgan Chase",
+        companyLink: "https://www.jpmorganchase.com/",
         time: "Jan 2022 - Jun 2022",
         address: "Mumbai, IN",
         work: "The project involved the development of an email summarization solution using extractive summarization and OCR with Python and Alteryx, aimed at aiding analysts in handling large volumes of emails efficiently. This innovation resulted in approximately 140 hours of saved time annually, as per the company's evaluation. Additionally, worked on dashboards and automated report generation system were developed using Alteryx and Tableau for business units"
