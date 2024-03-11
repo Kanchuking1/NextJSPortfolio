@@ -124,7 +124,7 @@
         "alt" : "GUI Molecule Editor",
         "thumbnail" : "/images/projects/Molecule Editor.png",
         "tech" : ["Python"],
-        "topics" : ["Data Science", "Data Science", "Chemistry", "Software Development"]
+        "topics" : [ "Data Science", "Chemistry", "Software Development"]
     }, {
         "id" : 16,
         "title" : "Genetic Algorithm trained Racing Car",
@@ -133,6 +133,6 @@
         "alt" : "Genetic Algorithm trained Racing Car",
         "thumbnail" : "/images/projects/Race Car Training.png",
         "tech" : ["JS"],
-        "topics" : ["Artificial Intelligence", "Genetic Algorithm"]
+        "topics" : ["Artificial Intelligence", "Machine Learning", "Genetic Algorithm"]
     }
 ]

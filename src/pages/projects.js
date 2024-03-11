@@ -16,20 +16,38 @@ projectsList.map(p => {
 })
 
 const techOptions = Array.from(techSet);
+techOptions.sort();
 const topicOptions = Array.from(topicSet);
+topicOptions.sort();
 
 const projects = () => {
 
     // Understand project criteria
-    const [selectedFilters, setSelectedFilters] = useState([{
-        value: "GPT"
-    }, {
-        value: "Artificial Intelligence"
-    }]);
+    const [selectedFilters, setSelectedFilters] = useState([]);
 
     const onRemoveSelectedFitler = (value) => {
         setSelectedFilters(selectedFilters.filter(f => f.value != value));
     }
+
+    const onSelectedFilterChip = (value) => {
+        const find = selectedFilters.find((f) => f.value == value);
+        if (find) return;
+        setSelectedFilters([... selectedFilters, {
+            value
+        }]);
+    }
+
+    let filteredProjects = projectsList.filter(project => {
+        const found = selectedFilters.find((filter) => {
+            return project.topics.includes(filter.value) ||
+            project.tech.includes(filter.value) ||
+            project.title.includes(filter.value) ||
+            project.intro.includes(filter.value)
+        })
+        return found != null && found != undefined
+    });
+
+    if ((!selectedFilters) || selectedFilters.length < 1) filteredProjects = projectsList;
 
     return (
         <>
@@ -52,9 +70,10 @@ const projects = () => {
                             }
                             ]}
                             selectedFilters={selectedFilters}
-                            onRemoveSelectedFitler={onRemoveSelectedFitler} />
+                            onRemoveSelectedFitler={onRemoveSelectedFitler}
+                            onSelectedFilterChip={onSelectedFilterChip} />
                         <div className='border-t-2 border-dark grid grid-cols-3 gap-4 pt-4'>
-                            {projectsList.map((project, index) => {
+                            {filteredProjects.map((project, index) => {
                                 return <ProjectCard key={`${index}_${project.id}`} {...project} />
                             })}
                         </div>
