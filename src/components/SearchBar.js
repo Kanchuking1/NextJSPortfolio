@@ -17,7 +17,7 @@ const FilterChip = ({
         if (isClickable) {
             outerDivProps.className += "!cursor-pointer hover:bg-dark/50 hover:text-light",
             outerDivProps.onMouseDown = () => {
-                onClick(value);
+                onClick?.(value);
             }
         }
 
@@ -100,7 +100,7 @@ const SearchBar = ({
                     key={`${index}_${sf.value}`} 
                     value={sf.value} 
                     allowClose={true}
-                    isClickable={false} 
+                    isClickable={true} 
                     onDelete={onDeleteFilter} />
             })}
         </div>

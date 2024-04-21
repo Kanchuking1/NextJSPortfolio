@@ -15,7 +15,7 @@ export default function Home() {
         <meta name="description" content="Welcome to Wahib Kapdi's Online portfolio." />
       </Head>
       <main className="flex items-center text-dark w-full min-h-screen">
-        <Layout className='pt-0'>
+        <Layout className='pt-0 w-[80%]'>
           <div className='flex items-center justify-between w-full border-solid border-2 border-dark'>
             <div className='w-1/2'>
               <Image src={profilePic} alt='Wahib Kapdi' className='w-full h-auto drop-shadow-2xl' />

@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 
 import {motion} from "framer-motion"
+import ConveyerBelt from './ConveyerBelt'
 
 // // const card = {
 //     initial: {
@@ -18,7 +19,7 @@ import {motion} from "framer-motion"
 const ProjectCard = ({ id, title, intro, target, alt, thumbnail, topics, tech }) => {
 
     return <motion.div id={`${id}`} 
-        className="w-full h-[450px] flex flex-col border-2 border-dark items-center rounded-2xl relative bg-light"
+        className="w-full h-[450px] flex flex-col border-2 border-dark items-center rounded-2xl relative bg-light hover:cursor-pointer"
         whileHover={{scale: 1.05}} onClick={() => {
             console.log("Here at " + target);
             window.open(target, "_blank");
@@ -28,16 +29,8 @@ const ProjectCard = ({ id, title, intro, target, alt, thumbnail, topics, tech })
         </figure>
         <div className="flex flex-col px-4 justify-between w-full">
             <div className='w-full'>
-                <div className='flex overflow-hidden whitespace-nowrap my-1'>
-                    {topics.map((topic, index) => {
-                        return <span key={`${index}_${topic}`} className='px-1 mr-1 rounded-md bg-primary/50 text-light text-xs'>{topic}</span>
-                    })}
-                </div>
-                <div className='flex overflow-hidden whitespace-nowrap my-1'>
-                    {tech.map((topic, index) => {
-                        return <span key={`${index}_${topic}`} className='px-1 mr-1 rounded-md bg-primary text-light text-xs'>{topic}</span>
-                    })}
-                </div>
+                <ConveyerBelt items={topics} colorComboClasses="bg-primary/50 text-light" />
+                <ConveyerBelt items={tech} colorComboClasses="bg-primary text-light" />
             </div>
             <h1 className='capitalize font-bold text-xl'>{title}</h1>
             <p>{intro}</p>
