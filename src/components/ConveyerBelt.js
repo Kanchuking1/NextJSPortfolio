@@ -22,7 +22,6 @@ const ConveyerBelt = ({
             leftOverFlow.current.style.display = 'none';
             rightOverflow.current.style.display = 'none';
         } else {
-            console.log(viewPortRef.current.scrollLeft, scrollWidth, clientWidth)
             const scrollPosition = viewPortRef.current.scrollLeft;
 
             leftOverFlow.current.style.display = scrollPosition == 0?'none':'block';
